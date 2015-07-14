@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="40dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" tools:context=".MainActivity"
+    android:background="#ff000000">
+
+    <TextView android:text="My Nanodegree apps" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:paddingBottom="40dp"
+        style="Headline"
+        android:textSize="20sp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:id="@+id/buttonSpotify"
+        android:background="#b9ff7ba5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scores App"
+        android:id="@+id/buttonScores"
+        android:background="#b9ff7ba5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Library App"
+        android:id="@+id/buttonLibrary"
+        android:background="#b9ff7ba5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Build it Bigger"
+        android:id="@+id/buttonBigger"
+        android:background="#b9ff7ba5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XYZ Reader"
+        android:id="@+id/buttonReader"
+        android:background="#b9ff7ba5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capstone: my own app"
+        android:id="@+id/buttonCapstone"
+        android:background="#ffe91e63"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffffff" />
+
+</LinearLayout>
