@@ -5,7 +5,7 @@
     android:gravity="center_horizontal" tools:context=".MainActivity"
     android:background="#ff000000">
 
-    <TextView android:text="My Nanodegree apps" android:layout_width="wrap_content"
+    <TextView android:text="@string/mainActivity_title" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
         android:paddingBottom="40dp"
@@ -14,62 +14,35 @@
         android:textColor="#ffffffff" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Spotify Streamer"
+        android:text="@string/button_spotify"
         android:id="@+id/buttonSpotify"
-        android:background="#b9ff7ba5"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_marginBottom="5dp"
-        android:textColor="#ffffffff" />
+        style="@style/LaunchButtons" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Scores App"
+        android:text="@string/button_scores"
         android:id="@+id/buttonScores"
-        android:background="#b9ff7ba5"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_marginBottom="5dp"
-        android:textColor="#ffffffff" />
+        style="@style/LaunchButtons" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Library App"
+        android:text="@string/button_library"
         android:id="@+id/buttonLibrary"
-        android:background="#b9ff7ba5"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_marginBottom="5dp"
-        android:textColor="#ffffffff" />
+        style="@style/LaunchButtons" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Build it Bigger"
+        android:text="@string/button_bigger"
         android:id="@+id/buttonBigger"
-        android:background="#b9ff7ba5"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_marginBottom="5dp"
-        android:textColor="#ffffffff" />
+        style="@style/LaunchButtons" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="XYZ Reader"
+        android:text="@string/button_reader"
         android:id="@+id/buttonReader"
-        android:background="#b9ff7ba5"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_marginBottom="5dp"
-        android:textColor="#ffffffff" />
+        style="@style/LaunchButtons" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Capstone: my own app"
+        android:text="@string/button_capstone"
         android:id="@+id/buttonCapstone"
         android:background="#ffe91e63"
-        style="?android:attr/borderlessButtonStyle"
-        android:textColor="#ffffffff" />
+        style="@style/LaunchButtons" />
+
 
 </LinearLayout>
