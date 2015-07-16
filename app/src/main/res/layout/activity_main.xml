@@ -5,7 +5,7 @@
     android:gravity="center_horizontal" tools:context=".MainActivity"
     android:background="#ff000000">
 
-    <TextView android:text="@string/mainActivity_title" android:layout_width="wrap_content"
+    <TextView android:text="@string/mainActivity_headline" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
         android:paddingBottom="40dp"
@@ -16,33 +16,39 @@
     <Button
         android:text="@string/button_spotify"
         android:id="@+id/buttonSpotify"
-        style="@style/LaunchButtons" />
+        style="@style/LaunchButtons"
+        android:onClick="spotifyClick" />
 
     <Button
         android:text="@string/button_scores"
         android:id="@+id/buttonScores"
-        style="@style/LaunchButtons" />
+        style="@style/LaunchButtons"
+        android:onClick="scoresClick" />
 
     <Button
         android:text="@string/button_library"
         android:id="@+id/buttonLibrary"
-        style="@style/LaunchButtons" />
+        style="@style/LaunchButtons"
+        android:onClick="libraryClick" />
 
     <Button
         android:text="@string/button_bigger"
         android:id="@+id/buttonBigger"
-        style="@style/LaunchButtons" />
+        style="@style/LaunchButtons"
+        android:onClick="biggerClick" />
 
     <Button
         android:text="@string/button_reader"
         android:id="@+id/buttonReader"
-        style="@style/LaunchButtons" />
+        style="@style/LaunchButtons"
+        android:onClick="readerClick" />
 
     <Button
         android:text="@string/button_capstone"
         android:id="@+id/buttonCapstone"
         android:background="#ffe91e63"
-        style="@style/LaunchButtons" />
+        style="@style/LaunchButtons"
+        android:onClick="capstoneClick" />
 
 
 </LinearLayout>

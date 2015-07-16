@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Nanodegree Portfolio</string>
-    <string name="mainActivity_title">My Nanodegree apps</string>
+    <string name="mainActivity_headline">My Nanodegree apps</string>
+
     <string name="button_spotify">Spotify Streamer</string>
+    <string name="toast_spotify">This will launch my Spotify Streamer app</string>
+
     <string name="button_scores">Scores App</string>
+    <string name="toast_scores">This will launch my Scores app</string>
+
     <string name="button_library">Library App</string>
+    <string name="toast_library">This will launch my Library app</string>
+
     <string name="button_bigger">Build it Bigger</string>
+    <string name="toast_bigger">This will launch Build it Bigger</string>
+
     <string name="button_reader">XYZ Reader</string>
-    <string name="button_capstone">apstone: my own app</string>
+    <string name="toast_reader">This will launch my Reader app</string>
+
+    <string name="button_capstone">Capstone: my own app</string>
+    <string name="toast_capstone">This will launch my Capstone app</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
